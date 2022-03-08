@@ -12,6 +12,15 @@
     font-size: 80px;
     background-color: rgb(76, 76, 236);
     margin-bottom: 0px;
+    margin-top: 0px;
+}
+.git{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Monoton', cursive;
+    font-size: 20px;
+    background-color: rgb(76, 76, 236);
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 .headerText{
     justify-content: center;
@@ -31,7 +40,9 @@
 }
 .projectImage{
     max-width: 250px;
-    max-height: 200px;
+    max-height: 400px;
+    height: 200px; 
+    width: 250px;
 }
 .personalPhoto{
     max-width: 400px;

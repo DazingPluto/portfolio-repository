@@ -9,6 +9,7 @@ class PortfolioPage extends Component {
             <body>
                 <div>
                     <h1 className='name'>Hunter Lee McGuire</h1>
+                    <h5 className='git'>GitHub@ DazingPluto</h5>
                     <div className='headerBlock'>
                         <div className="headerPhoto">
                             <img src="https://i.imgur.com/otvLfgl.jpg" className='personalPhoto'></img>
@@ -44,13 +45,15 @@ class PortfolioPage extends Component {
                                 <div className='Description'>
                                     <p>In "Anime Boop" I wanted to mix my love of anime with my new found knowledge of API's. Here you will see me flex to my best ability with
                                         using DOM monipulation to grab and display API DATA. I'm continuing to work vigorously on the project
-                                         to give the users a more personal experience and apply CRUD! 
+                                        to give the users a more personal experience and apply CRUD!
                                     </p>
 
                                 </div>
                             </div>
                             <div className="projectThree">
-                                <img src="https://i.imgur.com/L1MKQZQ.jpg" className='projectImage recipe'></img>
+                                <a href='https://my-recipe-page.herokuapp.com/?name='>
+                                    <img src="https://i.imgur.com/L1MKQZQ.jpg" className='projectImage recipe'></img>
+                                </a>
                                 <div className='Description'>
                                     <p>For "My Recipe" I challenged myself to make an API. and use componentDidMount() too display the data. Here you
                                         can see my current state of creating API's and displaying the DATA on the Frontend of the page. Stretch goals are to apply
